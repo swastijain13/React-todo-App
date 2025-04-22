@@ -1,10 +1,9 @@
-import { FC, useState, FormEvent } from "react";
+import { useState, FormEvent } from "react";
 import { todoItem } from "../App";
 
 type NewTodoFormProps = {
     addTodo: (todo: todoItem) => void;
   };
-
 
 const NewTodoForm = ({addTodo} : NewTodoFormProps) => {
     const [newTodoTitle, setNewTodoTitle] = useState<string>("")
