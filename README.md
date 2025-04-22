@@ -8,7 +8,7 @@
 
 ```bash
 git clone https://github.com/swastijain13/React-todo-App.git
-cd weather-app
+cd todo-app
 ```
 
 ### 2. Install Dependencies
@@ -17,16 +17,7 @@ cd weather-app
 npm install
 ```
 
-### 3. Add your API KEY (VisualCrossing Weather API)
-
-.config.py
-
-```
-export const SECRET_KEY:string = "<your-api-key>"
-
-```
-
-### 4. Run Server
+### 3. Run Server
 
 ```
 npm run dev
