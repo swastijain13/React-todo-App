@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { FC } from "react"
 import NewTodoForm from "./Components/NewTodoForm";
 import Todolist from "./Components/Todolist";
 
@@ -9,11 +8,10 @@ export type todoItem = {
   done : boolean
 }
 
-const App : FC = () => {
+const App = () => {
 
   const [todoList, setTodoList] = useState<todoItem[]>([])
   const [filter, setFilter] = useState<"ALL" | "PENDING" | "COMPLETED">("ALL")
-
 
   const addTodo = (newTodo: todoItem) => {
     setTodoList([...todoList, newTodo]);

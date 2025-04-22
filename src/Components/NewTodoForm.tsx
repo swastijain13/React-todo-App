@@ -6,7 +6,7 @@ type NewTodoFormProps = {
   };
 
 
-const NewTodoForm: FC<NewTodoFormProps> = ({addTodo}) => {
+const NewTodoForm = ({addTodo} : NewTodoFormProps) => {
     const [newTodoTitle, setNewTodoTitle] = useState<string>("")
 
     function handleSubmit(e: FormEvent){

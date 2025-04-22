@@ -7,7 +7,8 @@ type TodolistProps = {
     handleDelete : (id: string) => void
 }
 
-const Todolist = ({ list, handleComplete, handleDelete }: TodolistProps) => {
+//const TodoItem : FC<TodoItemProps>
+const Todolist  = ({ list, handleComplete, handleDelete }: TodolistProps) => {
 
     return (
       <ul>
