@@ -1,6 +1,26 @@
-# 🌦️ To-Do List App
+## To-Do List App
 
-## A todo list making app built with React.
+## A todo list making app built with React, with
+
+#### - mark as complete and delete functionality.
+
+#### - filter list with pending status(all, completed, done)
+
+## Preview
+
+### 🖥️ Screenshots
+
+##### all tasks:
+
+![App Screenshot](./assets/ss_all.png)
+
+##### pending tasks:
+
+![App Screenshot](./assets/ss_completed.png)
+
+##### completed tasks:
+
+![App Screenshot](./assets/ss_pending.png)
 
 ## 🚀 Setup Instructions
 
